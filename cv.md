@@ -1,7 +1,6 @@
 # Tatiana Pavlova
 ## Junior Frontend Developer
-### Contact Information:
-**Phone:** +7 996 923 10 49  
+### Contacts
 **E-mail:** tatiana.an.pavlova@gmail.com  
 **Discord:** __tiana(@tatianaanpavlova)  
 [**LinkedIn**](https://www.linkedin.com/in/tatiana-an-pavlova/)
@@ -9,7 +8,7 @@
 My passion for programming started from a little curiosity and from an idea to challenge myself. Eventually, I realized that I enjoy coding and want to make it my new profession. My love for self-education and my ability to learn fast give me hope that I can become a good web developer.
 ### SKills:
 * HTML/CSS
-* Basic JavaScript
+* JavaScript
 * Git, GitHub
 ### Code Example:
 ```JavaScript
