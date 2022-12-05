@@ -19,12 +19,12 @@ function multiply(a, b){
 ```
 ### Work experience:
 **LLC "Apex", Tver**  
-October 2022 -- Present 
+October 2022 -- Present  
 Junior SEO Specialist
-* Carrying out analysis on competitors and current SEO developments;
+* Carry out analysis on competitors and current SEO developments;
 * Research and select the most profitable search phrases and keywords for each client;
-* Developing and reviewing all website content in order to optimize it;
-* Managing CMSs for clients;
+* Develop and review all website content in order to optimize it;
+* Manage CMSs for clients;
 * Monitoring regular traffic analysis and KPIs;
 * Optimize clients' websites ensuring each site is accessible and easy to navigate, with the goal of increasing visitor interactions;
 ### Education:
