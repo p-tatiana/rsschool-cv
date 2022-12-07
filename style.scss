@@ -359,7 +359,6 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 * {
@@ -372,4 +371,55 @@ body {
   width: 1200px;
   margin: 0 auto;
   display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+
+  &__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.navbar {
+  display: flex;
+  gap: 100px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+
+.intro {
+  width: 100%;
+  display: flex;
+
+  &__container {
+    display: flex;
+  }
+}
+
+.footer {
+  display: flex;
+  margin-top: auto;
 }
