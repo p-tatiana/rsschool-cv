@@ -1,3 +1,27 @@
+/* lora-regular - latin */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  src: url("assets/fonts/lora-v26-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""), url("assets/fonts/lora-v26-latin-regular.eot?#iefix") format("embedded-opentype"), url("assets/fonts/lora-v26-latin-regular.woff2") format("woff2"), url("assets/fonts/lora-v26-latin-regular.woff") format("woff"), url("assets/fonts/lora-v26-latin-regular.ttf") format("truetype"), url("assets/fonts/lora-v26-latin-regular.svg#Lora") format("svg"); /* Legacy iOS */
+}
+/* lora-600 - latin */
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 600;
+  src: url("assets/fonts/lora-v26-latin-600.eot"); /* IE9 Compat Modes */
+  src: local(""), url("assets/fonts/lora-v26-latin-600.eot?#iefix") format("embedded-opentype"), url("assets/fonts/lora-v26-latin-600.woff2") format("woff2"), url("assets/fonts/lora-v26-latin-600.woff") format("woff"), url("assets/fonts/lora-v26-latin-600.ttf") format("truetype"), url("assets/fonts/lora-v26-latin-600.svg#Lora") format("svg"); /* Legacy iOS */
+}
+/* lora-italic - latin */
+@font-face {
+  font-family: "Lora";
+  font-style: italic;
+  font-weight: 400;
+  src: url("assets/fonts/lora-v26-latin-italic.eot"); /* IE9 Compat Modes */
+  src: local(""), url("assets/fonts/lora-v26-latin-italic.eot?#iefix") format("embedded-opentype"), url("assets/fonts/lora-v26-latin-italic.woff2") format("woff2"), url("assets/fonts/lora-v26-latin-italic.woff") format("woff"), url("assets/fonts/lora-v26-latin-italic.ttf") format("truetype"), url("assets/fonts/lora-v26-latin-italic.svg#Lora") format("svg"); /* Legacy iOS */
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -313,6 +337,9 @@ body {
   width: 100%;
   height: 100%;
   scroll-behavior: smooth;
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
   font-size: 10px;
 }
 
@@ -370,7 +397,7 @@ h6 {
 
 .navbar {
   display: flex;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .navbar__list {
   display: flex;
