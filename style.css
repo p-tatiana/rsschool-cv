@@ -384,6 +384,26 @@ h6 {
   padding: 0;
 }
 
+h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.8rem;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+p {
+  text-align: justify;
+}
+
+li {
+  text-align: center;
+}
+
 .header {
   width: 100%;
   min-height: 100px;
@@ -401,6 +421,7 @@ h6 {
 }
 .navbar__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 70px;
 }
 
@@ -428,8 +449,8 @@ h6 {
 .code {
   width: 100%;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .footer {
