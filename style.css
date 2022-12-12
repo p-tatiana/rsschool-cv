@@ -341,6 +341,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
+  color: #1D3557;
 }
 
 body {
@@ -352,7 +353,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid greenyellow;
 }
 
 .container {
@@ -366,12 +366,12 @@ ul {
   padding: 0;
 }
 
-li {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
+  color: #1D3557;
+}
+a:hover {
+  color: #457B9D;
 }
 
 h1,
@@ -392,16 +392,18 @@ h1 {
 
 h2 {
   text-align: center;
+  text-decoration: underline;
   font-weight: 600;
   font-size: 2.2rem;
 }
 
 p {
-  text-align: justify;
+  font-size: 1.8rem;
 }
 
 li {
   text-align: center;
+  list-style: none;
 }
 
 .header {
@@ -417,16 +419,16 @@ li {
 
 .navbar {
   display: flex;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .navbar__list {
   display: flex;
   flex-wrap: wrap;
   gap: 70px;
+  font-size: 1.8rem;
 }
 
 .main {
-  height: 100%;
   width: 100%;
   display: flex;
 }
@@ -437,6 +439,7 @@ li {
 }
 
 .cv {
+  width: 100%;
   display: flex;
 }
 .cv__column {
@@ -444,6 +447,100 @@ li {
   flex-direction: column;
   align-items: center;
   flex-basis: 50%;
+  gap: 30px;
+}
+
+.intro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.intro__pic {
+  width: 30%;
+  border-radius: 50%;
+}
+.intro__subtitle {
+  font-size: 1.8rem;
+}
+
+.skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.skills__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 1.8rem;
+}
+
+.education {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.edu-list {
+  display: flex;
+  flex-direction: column;
+}
+.edu-list__title {
+  font-size: 1.8rem;
+}
+.edu-list__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.edu-list__date {
+  font-size: 1.2rem;
+  color: #457B9D;
+}
+.edu-list__profession {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.edu-list__school {
+  font-size: 1.4rem;
+}
+
+.languages {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  font-size: 1.8rem;
+}
+.languages__list {
+  gap: 5px;
+}
+
+.contacts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.about__text {
+  padding: 0 10px;
+  line-height: 2.6rem;
+  text-align: justify;
 }
 
 .code {
