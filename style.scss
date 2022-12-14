@@ -558,29 +558,21 @@ li {
 .edu-list {
   display: flex;
   flex-direction: column;
-
-  &__title {
-    font-size: 1.8rem;
-  }
-
+  
   &__item {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+    font-size: 1.8rem;
   }
 
   &__date {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #457B9D;
   }
 
   &__profession {
-    font-size: 1.4rem;
     font-weight: 600;
-  }
-
-  &__school {
-    font-size: 1.4rem;
   }
 }
 

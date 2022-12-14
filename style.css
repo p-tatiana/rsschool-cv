@@ -492,24 +492,18 @@ li {
   display: flex;
   flex-direction: column;
 }
-.edu-list__title {
-  font-size: 1.8rem;
-}
 .edu-list__item {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
+  font-size: 1.8rem;
 }
 .edu-list__date {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #457B9D;
 }
 .edu-list__profession {
-  font-size: 1.4rem;
   font-weight: 600;
-}
-.edu-list__school {
-  font-size: 1.4rem;
 }
 
 .languages {
