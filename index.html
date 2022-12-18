@@ -1,115 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV | Tatiana Pavlova</title>
-    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatiana Pavlova | rsschool-cv</title>
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
-      <div class="header__container container">
-        <nav class="navbar">
-          <ul class="navbar__list">
-            <li class="navbar__item">
-              <a href="#">CV</a>
-            </li>
-            <li class="navbar__item">
-              <a href="#">Code Example</a>
-            </li>
-            <li class="navbar__item">
-              <a href="#">Projects</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main class="main">
-      <div class="main__container container">
-        <div class="cv">
-          <div class="cv__column">
-            <section class="intro">
-              <img class="intro__pic" src="/assets/images/cv_photo.jpg" alt="CV photo" />
-              <h1 class="intro__title">Tatiana Pavlova</h1>
-              <div class="intro__subtitle">Frontend Developer</div>
-            </section>
-            <section class="skills">
-              <h2 class="skills__title">Skills</h2>
-              <ul class="skills__list">
-                <li>JavaScript</li>
-                <li>CSS</li>
-                <li>HTML</li>
-              </ul>
-            </section>
-            <section class="education">
-              <h2 class="education__title">Education</h2>
-              <div class="edu-list">
-                <div class="edu-list__item">
-                  <span class="edu-list__date">December 2022 - Present</span>
-                  <span class="edu-list__profession">Courses, JavaScript/Front-end. Stage 0</span>
-                  <span class="edu-list__school">The Rolling Scopes School</span>
-                </div>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container container">
+          <nav class="header__menu menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#work-experience" class="menu__link"
+                  >Work Experience</a
+                >
+              </li>
+              <li class="menu__item">
+                <a href="#skills" class="menu__link">Skills</a>
+              </li>
+              <li class="menu__item">
+                <a href="#code-example" class="menu__link">Code Example</a>
+              </li>
+              <li class="menu__item">
+                <a href="#education" class="menu__link">Education</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main class="main">
+        <section class="profile">
+          <div class="profile__container container">
+            <div class="profile__information information">
+              <h1 class="information__name">Tatiana Pavlova</h1>
+              <h2 class="information__job-title">Frontend Developer</h2>
+              <div class="information__photo">
+                <img
+                  src="./assets/img/profile-picture.jpg"
+                  alt="Profile Picture"
+                  class="information__img"
+                >
               </div>
-              <div class="edu-list__item">
-                <span class="edu-list__date">September 2016 - June 2018</span>
-                <span class="edu-list__profession">Master's degree, Creative Industries and Management in the Field of Culture</span>
-                <span class="edu-list__school">Peoples' Friendship University of Russia, Moscow</span>
-              </div>
-              <div class="edu-list__item">
-                <span class="edu-list__date">September 2012 - June 2016</span>
-                <span class="edu-list__profession">Bachelor's degree, Finance</span>
-                <span class="edu-list__school">Peoples' Friendship University of Russia, Moscow</span>
-              </div>
-            </section>
-            <section class="languages">
-              <h2 class="languages__title">Languages</h2>
-              <ul class="languages__list">
-                <li>English - B2/C1</li>
-                <li>Russian - Native</li>
-              </ul>
-            </section>
-          </div>
-          <div class="cv__column">
-            <section class="contacts">
-              <h2 class="contacts__title">Contacts</h2>
+            </div>
+            <div class="profile__contacts contacts">
               <ul class="contacts__list">
-                <li>tatianaanpavlova</li>
-                <li>__tiana(@tatianaanpavlova)</li>
+                <li>
+                  <img src="./assets/svg/discord.svg" alt="discord icon">
+                  __tiana(@tatianaanpavlova)
+                </li>
+                <li>
+                  <img src="./assets/svg/mail.svg" alt="email icon">
+                  tatiana.an.pavlova@gmail.com
+                </li>
+                <li class="contacts__links">
+                  <a
+                    href="https://github.com/tatianaanpavlova"
+                    class="contacts__github"
+                    ><img
+                      src="./assets/svg/github_purple.svg"
+                      alt="github icon"
+                      >
+                    GitHub</a
+                  >
+                  <a
+                    href="https://www.linkedin.com/in/tatiana-an-pavlova/"
+                    class="contacts__linkedin"
+                    ><img src="./assets/svg/linkedin.svg" alt="linkedin icon">
+                    LinkedIn</a
+                  >
+                </li>
               </ul>
-            </section>
-            <section class="about">
-              <h2 class="about__title">About me</h2>
-              <p class="about__text">
-                My passion for programming started from a little curiosity and
-                from an idea to challenge myself. Eventually, I realized that I
-                enjoy coding and want to make it my new profession. My love for
-                self-education and my ability to learn fast give me hope that I
-                can become a good web developer.
-              </p>
-            </section>
-            <section class="experience">
-              <h2 class="experience__title">Experience</h2>
-              <div class="exp-list">
-                <div class="exp-list__item">
-                  <div class="exp-list__title"></div>
-                </div>
-              </div>
-            </section>
+            </div>
+          </div>
+        </section>
+        <section class="about-me">
+          <div class="about-me__container container">
+            <h2 class="about-me__title">Hi, I'm Tatiana :)</h2>
+            <p class="about-me__text-block">
+              My passion for programming started from a little curiosity and
+              from an idea to challenge myself. Eventually, I realized that I
+              enjoy coding and want to make it my new profession.
+            </p>
+          </div>
+        </section>
+        <section class="skills">
+          <div class="skills__container container">
+            <h2 class="skills__title" id="skills">Skills</h2>
+            <ul class="skills__list">
+              <li class="skills__list-item">HTML/CSS</li>
+              <li class="skills__list-item">JavaScript</li>
+              <li class="skills__list-item">Git/GitHub</li>
+            </ul>
+          </div>
+        </section>
+        <section class="expirience">
+          <div class="expirience__container container">
+            <h2 class="expirience__title" id="work-experience">
+              Work Experience
+            </h2>
+            <div class="expirience__job job"></div>
+            <div class="job__data">October 2022 - Present</div>
+            <div class="job__job-position">
+              SEO Specialist,
+              <span class="job__place"
+                >LLC "Apex", Tver</span
+              >
+            </div>
+            <ul class="job__list">
+              <li class="job__list-item">
+                Carry out analysis on competitors and current SEO developments;
+              </li>
+              <li class="job__list-item">
+                Research and select the most profitable search phrases and keywords for each client;
+              </li>
+              <li class="job__list-item">
+                Develop and review all website content in order to optimize it;
+              </li>
+              <li class="job__list-item">
+                Optimize clients' websites ensuring each site is accessible and easy to navigate, with the goal of increasing visitor interactions;
+              </li>
+              <li class="job__list-item">
+                Manage CMSs for clients;
+              </li>
+              <li class="job__list-item">Monitoring regular traffic analysis and KPIs;</li>
+            </ul>
+          </div>
+        </section>
+        <section class="education">
+          <div class="education__container container">
+            <h2 class="education__title" id="education">Education</h2>
+            <h3 class="education__subtitle">Courses</h3>
+            <span class="education__data">June 2022 - Currently</span>
+            <div class="education__item">
+              <span class="education__place">RS Schools</span>
+              <span class="education__level"
+                >«JavaScript/Front-end. Stage 0»</span
+              >
+            </div>
+            <h3 class="education__subtitle">Master’s degree</h3>
+            <span class="education__data">September 2016 - June 2018</span>
+            <div class="education__item">
+              <span class="education__place"
+                >Peoples’ Friendship University of Russia, Moscow</span
+              >
+              <span class="education__level"
+                >Creative Industries and Management in the Field of
+                Culture</span
+              >
+            </div>
+            <h3 class="education__subtitle">Bachelor’s degree</h3>
+            <span class="education__data">September 2012 - June 2016</span>
+            <div class="education__item">
+              <span class="education__place"
+                >Peoples’ Friendship University of Russia, Moscow</span
+              >
+              <span class="education__level">Economics and Finance</span>
+              <h3 class="education__subtitle">Languages</h3>
+              <ul class="education__lang-list">
+                <li class="education__lang-list-item">Russian - Native</li>
+                <li class="education__lang-list-item">English - B2</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="code-example">
+          <div class="code-example__container container">
+            <h2 class="code-example__title" id="code-example">Code Example</h2>
+            <pre
+              class="code-example__code"
+            ><code class="code-example__language-javascript">function multiply(a, b){
+              a * b
+              return a*b;
+              }
+              </code></pre>
+          </div>
+        </section>
+        
+      </main>
+      <footer class="footer">
+        <div class="footer__container container">
+          <div class="footer__items">
+            <p class="footer__copiright">
+              © 2022 by
+              <a
+                href="https://github.com/tatianaanpavlova"
+                class="footer__github-link"
+              >
+                <img
+                  src="./assets/svg/github_black.svg"
+                  alt="github icon"
+                >Tatiana Pavlova</a
+              >
+            </p>
+            <div class="footer__rsschool">
+              <a href="https://rs.school/js/"
+                ><img
+                  class="footer__rsschool-logo"
+                  src="./assets/svg/rs_school.svg"
+                  alt="RS School logo"
+              ></a>
+            </div>
           </div>
         </div>
-        <div class="code">
-          <section class="code-example">
-            <h2 class="code-example">Code Example</h2>
-          </section>
-          <section class="projects">
-            <h2 class="projects">Projects</h2>
-          </section>
-        </div>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="footer__container container">footer</div>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
