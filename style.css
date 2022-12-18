@@ -591,8 +591,7 @@ body {
   padding: 20px;
   border-radius: 3px;
   color: #222222;
-
-  font-size: 20px;
+  text-transform: uppercase;
   line-height: 20px;
 }
 
