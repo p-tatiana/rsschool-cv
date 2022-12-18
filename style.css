@@ -85,6 +85,10 @@ h6 {
   font-weight: 400;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
 /* ------------------------FONTS------------------------ */
 
 /* ibm-plex-sans-300 - latin */
@@ -337,6 +341,7 @@ body {
   margin: 15px 25px 15px 25px;
   line-height: 20px;
   text-align: justify;
+  width: 70%;
 }
 
 .expirience {
