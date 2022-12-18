@@ -541,6 +541,41 @@ body {
   color: #af48ff;
 }
 
+.projects {
+  position: relative;
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+}
+
+.projects__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.projects__title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+  text-decoration-color: #af48ff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.project {
+  left: 50%;
+}
+
+.project__img {
+  width: 30%;
+  margin: auto;
+  border: 2px solid #851bd9;
+}
 /* ------------------------FOOTER------------------------ */
 
 footer {
