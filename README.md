@@ -1,4 +1,4 @@
 # rsschool-cv
 
-https://tatianaanpavlova.github.io/rsschool-cv/cv  
-https://tatianaanpavlova.github.io/rsschool-cv/
+https://p-tatiana.github.io/rsschool-cv/cv
+https://p-tatiana.github.io/rsschool-cv/
